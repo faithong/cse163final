@@ -1,2 +1,3 @@
-pip install streamlit
-streamlit hello
+st.write("""
+# CSE 163 Final Project
+""")
