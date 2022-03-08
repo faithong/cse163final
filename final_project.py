@@ -5,3 +5,5 @@ import numpy as np
 st.write("""
 # CSE 163 Final Project
 """)
+
+DATA_URL = ()
