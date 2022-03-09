@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import seaborn as sns
-import matplotlib.pyplot as plt
 
 
 col1, col2, col3 = st.columns([3, 1, 1])
