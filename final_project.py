@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 
 
+
 col1, col2, col3 = st.columns([3, 1, 1])
 st.text("")
 st.text("")
