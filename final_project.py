@@ -54,4 +54,4 @@ if visualization == 'Gene Classifications':
             gene_class_graph = sns.catplot(data=all_races, x="gene_class", kind="count", ci=None)
             st.pyplot(gene_class_graph)
 else:
-     st.write("You didn't select gene classifications."
+     st.write("You didn't select gene classifications.")
