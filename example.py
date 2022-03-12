@@ -11,16 +11,3 @@ col4, col5, col6 = st.columns([3, 3, 3])
 with col1:
     st.title("CSE 163 Final Project")
     st.caption("Here I will include a short description on our project.")
-
-# displaying data
-aa = pd.read_csv('/Users/faithong/Desktop/cse163final/cse163final/data_aa.csv')
-ea = pd.read_csv('/Users/faithong/Desktop/cse163final/cse163final/data_ea.csv')
-
-aa['Race'] = "African-American"
-ea['Race'] = "European-American"
-all_races = aa.merge(ea, how='outer')
-all_races = all_races.loc[:, all_races.columns != 'gene_id']
-st.markdown("***")
-
-st.text("")
-st.text("")
