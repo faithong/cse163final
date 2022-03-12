@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import seaborn as sns
+import pip
+pip.main(['install','seaborn'])
 
 
 
