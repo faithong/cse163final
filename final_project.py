@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 import seaborn as sns
-import pip
-pip.main(['install','seaborn'])
-
 
 
 col1, col2, col3 = st.columns([3, 1, 1])
